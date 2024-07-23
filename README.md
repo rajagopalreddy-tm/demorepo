@@ -1,49 +1,41 @@
-###### Title: Day of the Week Finder
+### Title: Building a Method to Calculate the Area of a Rectangle
 
-###### Problem Statement
+#### Problem Statement
 
-Alice is learning the days of the week in her programming class. She needs to write a program that takes a number as input and prints the corresponding day of the week. The mapping of numbers to days is as follows:
+Imagine you are an architect designing a new house, and you need to calculate the area of different rectangular rooms to know how much flooring material you will need. Write a Java program that includes a method to calculate the area of a rectangle given its length and width. You will use this method to find and print the area of a room.
 
-- 1 -> Monday
-- 2 -> Tuesday
-- 3 -> Wednesday
-- 4 -> Thursday
-- 5 -> Friday
-- 6 -> Saturday
-- 7 -> Sunday
+#### Input Format
 
-Your task is to help Alice by implementing this logic using a switch statement.
+Two integer values representing the length and width of the rectangle.
 
-###### Input Format
+#### Constraints
 
-A single integer `n  where 1 ≤ n < 7 .`
+The length and width will be positive integers.
 
-###### Constraints
+#### Output Format
 
-The input integer will be between 1 and 7 (inclusive).
+An integer representing the area of the rectangle.
 
-###### Output Format
-
-Output the corresponding day of the week as a string.
-
-#### Examples
+#### Sample Input and Output
 
 #### Sample Input 1
 
-`3`
+`5 4`
 
 #### Sample Output 1
 
-`Wednesday`
+`20`
 
 #### Sample Input 2
 
-`6`
+`7 3`
 
 #### Sample Output 2
 
-`Saturday`
+`21`
 
 #### Explanation
 
-In the first example, the input is 3, which corresponds to Wednesday. In the second example, the input is 6, which corresponds to Saturday.
+The first input represents a rectangle with length 5 and width 4. The area is 5 * 4 = 20.
+
+The second input represents a rectangle with length 7 and width 3. The area is 7 * 3 = 21.
